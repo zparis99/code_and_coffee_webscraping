@@ -1,7 +1,16 @@
+################################################################################
+# Script using BeautifulSoup to grab pricing data from another website specified
+# by config.json
+################################################################################
+
 # Change os directory to correct directory
 import os
-#os.chdir('/Users/zachparis/Documents/code_and_coffee/bs4_webpage_example')
-os.chdir('/Users/zachparis/Documents/COSProjects/coffee_and_code/coffee_and_code_webscraping/bs4_webpage_example')
+# If running locally
+#dirr = '/Users/zachparis/Documents/coffee_and_code/bs4_webpage_example
+
+dirr = os.path.dirname(os.path.realpath(__file__)) # this automatically gets the directory of the running file
+os.chdir(dirr)
+
 from grab_func import casper_assorted_pricing
 import json
 import pandas as pd

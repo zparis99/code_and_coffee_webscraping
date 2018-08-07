@@ -1,3 +1,12 @@
+################################################################################
+# Script using splinter to grab data which is only easily accessible by
+# interacting with a webpage.
+################################################################################
+
+import os
+dirr = os.path.dirname(os.path.realpath(__file__)) # this automatically gets the directory of the running file
+os.chdir(dirr)
+
 from splinter import Browser
 import pandas as pd
 import json
@@ -28,3 +37,5 @@ for product in config['products']:
 browser.quit()
 
 print(info)
+
+info.to_excel('purple_pricing.xlsx')

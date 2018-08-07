@@ -5,7 +5,10 @@
 
 from bs4 import BeautifulSoup
 import os
-os.chdir('/Users/zachparis/Documents/code_and_coffee/basic_data_grab_example')
+# If running locally
+#dirr = '/Users/zachparis/Documents/coffee_and_code/basic_bs4_example'
+dirr = os.path.dirname(os.path.realpath(__file__)) # this automatically gets the directory of the running file
+os.chdir(dirr)
 
 # Load html file into BeatifulSoup instance
 with open('./page_files/basic_css_example.html') as fp:
