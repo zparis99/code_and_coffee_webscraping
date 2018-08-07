@@ -1,0 +1,26 @@
+{
+  "timezone" : "America/New_York",
+  "products":[
+    {
+      "url_list": ["https://www.tuftandneedle.com/sheets/?size=PS-SET-T", "https://www.tuftandneedle.com/sheets/?size=PS-SET-X", "https://www.tuftandneedle.com/sheets/?size=PS-SET-F", "https://www.tuftandneedle.com/sheets/?size=PS-SET-Q", "https://www.tuftandneedle.com/sheets/?size=PS-SET-K-CLOUD", "https://www.tuftandneedle.com/sheets/?size=PS-SET-C"],
+      "product_list": ["Twin", "Twin XL", "Full", "Queen", "King", "Cal King"],
+      "broad_product": "Sheets",
+      "price_tag" : "div",
+      "price_selector" : ".product_price"
+    },
+    {
+      "url_list": ["https://www.tuftandneedle.com/duvet/?size=DI-ALW-T/X", "https://www.tuftandneedle.com/duvet/?size=DI-AMW-T/X", "https://www.tuftandneedle.com/duvet/?size=DI-ALW-F/Q", "https://www.tuftandneedle.com/duvet/?size=DI-AMW-F/Q", "https://www.tuftandneedle.com/duvet/?size=DI-ALW-K/C", "https://www.tuftandneedle.com/duvet/?size=DI-AMW-K/C"],
+      "product_list": ["Twin/Twin XL Light", "Twin/Twin XL Medium", "Full/Queen Light", "Full/Queen Medium", "King/Cal King Light", "King/Cal King Medium"],
+      "broad_product": "Duvet",
+      "price_tag" : "div",
+      "price_selector" : ".product_price"
+    },
+    {
+      "url_list": ["https://www.tuftandneedle.com/duvet-cover/?size=DC-CLOUD-T/X", "https://www.tuftandneedle.com/duvet-cover/?size=DC-CLOUD-F/Q", "https://www.tuftandneedle.com/duvet-cover/?size=DC-CLOUD-K/C"],
+      "product_list": ["Twin/Twin XL", "Full/Queen", "King/Cal King"],
+      "broad_product": "Duvet Cover",
+      "price_tag" : "div",
+      "price_selector" : ".product_price"
+    }
+  ]
+}
