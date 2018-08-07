@@ -1,0 +1,24 @@
+{
+  "timezone" : "America/New_York",
+  "products" : [
+    {
+      "url" : "https://purple.com/mattresses/purple-mattress/buy",
+      "product_name" : "New Purple Mattress",
+      "size_tag" : "a",
+      "size_selector" : ".mattress-size-option",
+      "price_tag" : "span",
+      "price_selector" : ".price",
+      "type_tag" : "a",
+      "type_selector" : ".mattress-type-option"
+    },
+    {
+      "url" : "https://purple.com/mattresses/purple-bed/buy",
+      "product_name" : "Purple Mattress",
+      "price_tag" : "span",
+      "price_selector" : ".price",
+      "size_tag" : "a",
+      "size_selector" : ".mattress-size-option"
+    }
+  ],
+  "close_tags" : [".close", ".modal-close-x"]
+}

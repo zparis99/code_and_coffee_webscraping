@@ -4,13 +4,7 @@
     {
       "url" : "https://casper.com/nap-pillow/",
       "product_name" : "Nap Pillow",
-      "price_selector" : ".sc-fMzOhG",
-      "price_tag" : "div"
-    },
-    {
-      "url" : "https://casper.com/woolly-magazine/",
-      "product_name" : "Woolly Magazine",
-      "price_selector" : ".BuyBar__desktop-purchaser--single-price___3vaXe",
+      "price_selector" : ".sc-cdjxVY",
       "price_tag" : "div"
     }
   ]

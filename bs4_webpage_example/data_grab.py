@@ -1,6 +1,7 @@
 # Change os directory to correct directory
 import os
-os.chdir('/Users/zachparis/Documents/code_and_coffee/bs4_webpage_example')
+#os.chdir('/Users/zachparis/Documents/code_and_coffee/bs4_webpage_example')
+os.chdir('/Users/zachparis/Documents/COSProjects/coffee_and_code/coffee_and_code_webscraping/bs4_webpage_example')
 from grab_func import casper_assorted_pricing
 import json
 import pandas as pd
