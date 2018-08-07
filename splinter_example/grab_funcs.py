@@ -30,6 +30,18 @@ def purple_series(browser, broad_product, price_tag, price_selector, today, size
 
     return temp
 
+# Will click through options on purple webpage to grab pricing. Contains multiple
+# try and except clauses in the event popups appear.
+# browser is a Browser instance from splinter
+# url is the url of the page
+# size_tag is the tag type i.e. 'div' for the buttons which determine mattress size
+# size_selector is the css selector for the size, all buttons should share a common class
+# broad_product is the broad name of the product
+# price_tag is the tag type i.e. 'div' for the tag holding the price
+# price_selector is the selector for the price
+# close_tags are the selectors [in a list] for the x-out buttons on popups
+# type_tag is the tag for the type of mattress if present
+# type_selector is the css selector for the types
 def purple_mattress_pricing(browser, url, size_tag, size_selector, broad_product, today, price_tag, price_selector, close_tags, type_tag=None, type_selector=None):
     browser.visit(url)
 
